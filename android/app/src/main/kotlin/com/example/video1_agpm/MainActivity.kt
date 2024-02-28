@@ -1,4 +1,4 @@
-package com.example.video1_agpm
+package com.example.practica1
 
 import io.flutter.embedding.android.FlutterActivity
 
