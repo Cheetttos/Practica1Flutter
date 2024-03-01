@@ -83,6 +83,10 @@ flutter:
       fonts:
         - asset: fonts/MatisanScript.otf
           style: italic
+    - family: Modelo
+      fonts:
+        - asset: fonts/Nexa-Heavy.ttf
+          style: normal
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf

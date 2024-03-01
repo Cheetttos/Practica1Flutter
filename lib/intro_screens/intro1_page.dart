@@ -12,13 +12,29 @@ class IntroPage1 extends StatelessWidget {
               top: 30,
               left: 15,
               right: 15,
+              child: Align(
+                alignment: Alignment.topCenter,
+                child: Text(
+                  'Kawasaki',
+                  style: TextStyle(
+                    fontSize: 35,
+                    color: Color.fromARGB(255, 0, 0, 0),
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ),
+            ),
+            const Positioned(
+              top: 80,
+              left: 18,
+              right: 18,
               child: Text(
-                'Kawasaki, la icónica firma japonesa de motocicletas, se erige como un pilar en la industria, fusionando una rica herencia con la vanguardia tecnológica. Desde las audaces y veloces deportivas hasta las versátiles motocicletas de aventura y las elegantes cruceras, el extenso repertorio de Kawasaki refleja una búsqueda constante de la excelencia. Su linaje de éxito en competiciones impulsa la creación de máquinas potentes y de alta calidad, mientras que su estampa estilizada y la incorporación de tecnologías avanzadas consolidan su posición como líder indiscutible en el emocionante universo de las motocicletas.',
+                'Kawasaki, fundada en 1878, es una icónica marca japonesa de motocicletas reconocida por su audacia e innovación. Con la serie Ninja en los años 80, estableció estándares en motocicletas deportivas. Con estilo vibrante y tecnología avanzada, Kawasaki lidera la industria, atrayendo a seguidores leales globalmente.',
                 style: TextStyle(
-                    fontSize: 22,
+                    fontSize: 25,
                     color: Colors.green,
                     fontWeight: FontWeight.bold,
-                    fontFamily: 'Kawasaki'),
+                    fontFamily: 'Modelo'),
               ),
             ),
             Positioned(
